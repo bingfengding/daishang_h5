@@ -108,10 +108,10 @@
     <div class="page pageBox4 section">
       <div class="center">
         <p class="pageBox4Title bold textCen">
-          客户至上
+          客户至上·信誉为本
         </p>
         <div class="pageBox4Main">
-          <p>我们致力于给每一位客户提供最佳的产品体验和最优质服务, 这是给你日夜不停息辛苦寻找客户的最好回报。</p>
+          <p>我们致力于给每一位客户提供最佳的产品体验和最优质服务，这是给你日夜不停息辛苦寻找客户的最好回报。</p>
           <p>我们的产品不断追求卓越和创新，不断吸收客户反馈建议, 完成升级再升级, 只为让每一位客户用的方便。</p>
           <p>我们的品牌以诚信为本, 以信誉著称, 让每一位客户都放心, 安心, 舒心地享受跟我们一起度过的分分秒秒。</p>
           <p>我们的服务追求人性化, 个性化, 因为每一位客户的体验都是用心的, 所以我们会更用心！</p>
@@ -351,28 +351,28 @@ export default {
           icon:require("../image/icon_01.png"),
           headerBg:require("../image/header_01.png"),
           title:"合作宗旨",
-          text:"ManBetX 万博为广大合作伙伴提供最大让利回报，加入本公司合营伙伴无需任何费用，不需承担任何风险。 只要介绍会员到本公司进行娱乐游戏，就可以获得我们净赢利的回报。我们拥有专业的营销辅导团队和强大市场营销工具，你的合营事业必将在最短时间内能取得成功！",
+          text:"ManBetX万博专注于提供业内最有竞争力的产品，只需介绍用户来到ManBetX万博进行娱乐游戏，即可获得我们的净赢利回报。借助我们专业的营销辅导团队与强大市场营销工具，你的合营事业必将在最短时间内能取得成功!",
           contentBg:require("../image/hand1.jpg")
         },
         {
           icon:require("../image/icon_02.png"),
           headerBg:require("../image/header_02.png"),
           title:"佣金模式",
-          text:"ManBetX 万博网站所有产品，网站所有产品，只有彩票计算抽水，不计输赢，其他的均按输赢来计算佣金；最低30%起步，最高达55%，只需要同时满足活跃会员和净盈利的要求即可获得相应比例的佣金。",
+          text:"ManBetX万博为广大合营伙伴提供最大让利回报，基础起步佣金 30%，高出同行业平均水平；最高达55%的回报，全行业之最。",
           contentBg:require("../image/hand1.jpg")
         },
         {
           icon:require("../image/icon_03.png"),
           headerBg:require("../image/header_04.png"),
           title:"VIP合作伙伴奖励",
-          text:"合作伙伴VIP尊贵专享，高端推广工具产品、会员专属存款通道、专属电话回访维护、VIP尊享优惠活动、 每月额外推广发展奖金，境内外旅游套餐、年终奖金分红。",
+          text:"ManBetX万博的合作伙伴拥有VIP尊贵专享服务，高端推广工具、会员专属存款通道、专属电话回访维护、VIP尊享优惠活动、每月额外推广发展奖金，境内外旅游套餐、年终奖金分红。",
           contentBg:require("../image/hand1.jpg")
         },
         {
           icon:require("../image/icon_04.png"),
           headerBg:require("../image/header_03.png"),
           title:"合作伙伴扶持和奖励",
-          text:"针对于不同级别的合作伙伴，我们提供不同的扶持和鼓励！没有推广经验，没关系，我们陪你从零开始，到获得第一桶金，然后达到成功！推广经验丰富，恭喜你，明智选择了如此优秀强大的合作伙伴，让你在最短的时间内事业更上新的高峰！",
+          text:"ManBetX万博针对于不同级别的合作伙伴提供不同的扶持和鼓励！没有推广经验，没关系，我们陪你从零开始，到获得第一桶金，直抵成功！推广经验丰富，恭喜你，明智的你选择了如此优秀强大的合作伙伴，让你在最短的时间内事业登上新的高峰！",
           contentBg:require("../image/hand1.jpg")
         },
       ],
@@ -410,12 +410,12 @@ export default {
             title:"万博体育"
           },
           {
-            value:"萬贯厅  萬博厅 萬贵厅  萬财厅 萬尊厅  萬福厅 萬世厅  萬岁厅 萬寿厅 ",
+            value:"AG、OG、欧博、沙龙、GD、BBIN、MG、PT、万博九大真人平台，保证满足您的所有会员",
             url:require("../image/Interface2.png"),
             title:"九大真人"
           },
           {
-            value:"PP电子  MG电子 AG电子  PT电子 PG电子",
+            value:"PP、MG、AG、PT、PG五大电子游艺平台，保证您在老虎机的旋转之中同样收获满盆金钵。",
             url:require("../image/Interface3.png"),
             title:"五大电子"
           },
@@ -647,7 +647,7 @@ export default {
         color #ffbd5e
         padding-bottom 0.5rem  
       .pageBox2Main
-        padding-bottom 1rem
+        padding-bottom 0.4rem
         p
           color #cccccc
           line-height 0.36rem
@@ -682,7 +682,7 @@ export default {
       .pageBox3Title
         font-size 0.7rem
         color #ffbd5e
-        padding-bottom 0.5rem     
+        padding-bottom 0.2rem     
       .pageBox3Main
         .pageBox3Item
           .pageBox3Header
@@ -718,13 +718,14 @@ export default {
               line-height 0.38rem
               color #ffbd5e
             &.accordion
-              height 2.8rem
+              height 2.4rem
               // animation myHeight 5s ease
               // animation-fill-mode forwards 
     .pageBox4
       background url("../image/itemBg.png") no-repeat
       background-size cover
       padding-top 1.20rem
+      overflow hidden
       .pageBox4Title
         font-size 0.7rem
         color #ffbd5e
@@ -739,7 +740,6 @@ export default {
           color #ccc
 
       .swiperBox
-        padding-top 0.6rem
         .gallery-top
           .slide1
             .slide1Img
@@ -846,10 +846,10 @@ export default {
               .myVideo1
                 width 100%
     .pageBox5
-      height 6.5rem !important
+      height 7.5rem !important
       background url("../image/footerBg.jpg") no-repeat
       background-size 100% 100%
-      padding 0.5rem 0 0 0.2rem
+      padding .5rem 0 0 .2rem
       color #fff
       .ft30
         font-size 0.3rem
@@ -993,5 +993,8 @@ export default {
           margin-left -0.22rem
           img 
             width 100%
-            height 100%   
+            height 100%
+  .section
+    overflow hidden
+    position relative
 </style>
