@@ -14,9 +14,9 @@
     <div class="tellUs" @click="tellUs" :class="tellUsShow ? 'tellUsShow':''">
       <div class="iconBox">
         <div class="phone">
-          <a href="tel:+6398-0399-992" @click.stop>
-          <img src="../image/mobile-phone.png" alt="">
-          <span>+63 980399992</span>
+          <a href="mailto:mxheying＠gmail.com" @click.stop>
+          <img src="../image/mail.jpg" alt="">
+          <span>mxheying＠gmail.com</span>
           </a>
         </div>
         <div class="skype" >
@@ -166,7 +166,7 @@
                <swiper-slide class="list slide4">
                  <div class="slide4MediaBox">
                     <video controls name="media1" ref="myVideo1" class="myVideo1">
-                      <source src="../assets/moive1.mp4" type="video/mp4">
+                      <source src="../assets/video.mp4" type="video/mp4">
                       您的浏览器不支持 video 标签。
                     </video>
                  </div>
@@ -187,11 +187,11 @@
         <div class="pageBox5ItemList">
           <div class="pageBox5ItemChild">
             <div class="pageBox5ItemBoxImg">
-              <img src="../image/image_01.png" alt="">
+              <img src="../image/image_09.png" alt="">
             </div>
             <div class="pageBox5ItemBoxText">
-              <div><p class="ft30">皇 家 马 德 里</p>
-              <p class="ft30">官方合作伙伴</p></div>
+              <div><p class="ft28">尤文图斯足球俱乐部</p>
+              <p class="ft28 letter4">亚洲官方合作伙伴</p></div>
               
             </div>
           </div>
@@ -200,11 +200,11 @@
           </div>
           <div class="pageBox5ItemChild">
             <div class="pageBox5ItemBoxImg">
-              <img src="../image/image_02.png" alt="">
+              <img src="../image/image_01.png" alt="">
             </div>
             <div class="pageBox5ItemBoxText">
-              <div ><p class="ft30 letter1">英超水晶宫</p>
-              <p  class="ft30 letter1">球衣赞助商</p></div>
+              <div><p class="ft30">皇 家 马 德 里</p>
+              <p class="ft30">官方合作伙伴</p></div>
               
             </div>
           </div>
@@ -225,7 +225,22 @@
           <div class="pageBox5Line">
             <img src="../image/line_01.png" alt="">
           </div>
-          <div class="pageBox5ItemChild">
+           <div class="pageBox5ItemChild">
+            <div class="pageBox5ItemBoxImg">
+              <img src="../image/image_02.png" alt="">
+            </div>
+            <div class="pageBox5ItemBoxText">
+              <div ><p class="ft30 letter1">英超水晶宫</p>
+              <p  class="ft30 letter1">球衣赞助商</p></div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="pageBox5ItemBox">
+        <div class="pageBox5ItemList">
+           <div class="pageBox5ItemChild">
             <div class="pageBox5ItemBoxImg pageBox5Img4">
               <img src="../image/image_04.png" alt="">
             </div>
@@ -580,15 +595,16 @@ export default {
     z-index 102
     font-size 0.22rem
     display flex
-    align-items center
+    align-items flex-end
     justify-content center
     transition all 0.3s ease
     transform translateY(-1.2rem)
     color #000000
+    padding-bottom 0.1rem
     .phone
       img
-        width 0.36rem
-        height 0.36rem
+        width 0.35rem
+        height 0.24rem
         vertical-align middle
       span
         padding-left 0.1rem
@@ -865,6 +881,8 @@ export default {
         letter-spacing 0.2rem
       .letter3
         letter-spacing 0.16rem
+      .letter4
+        letter-spacing 0.04rem
       .horizontal
         height 0.02rem
         display flex
