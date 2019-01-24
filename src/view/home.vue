@@ -20,9 +20,9 @@
           </a>
         </div>
         <div class="skype" >
-          <a href="skype:pilika666@163.com?chat" @click.stop>
+          <a href="skype:live:pilika666?chat" @click.stop>
             <img src="../image/skype.png" alt="">
-            <span>pilika666@163.com</span>
+            <span>pilika666</span>
           </a>
         </div>
         <p><span v-show="tellUsShow">X</span>联系我们</p>
